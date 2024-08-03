@@ -123,7 +123,7 @@ const Home = () => {
           <div className="row-span-1 col-span-2">
             <input
               onChange={handleChange}
-              className="w-[80%] h-10 px-4  mt-14 rounded-lg"
+              className="w-[80%] h-10 px-4  mt-14 rounded-lg focus:outline-none"
               type="text"
               placeholder="Enter your City"
               value={change}
